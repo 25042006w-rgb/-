@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Шрифты — WebType</title>
+<link rel="stylesheet" href="https://1.www.s81c.com/common/carbon/2.40.0/css/carbon-components.min.css"><link rel="stylesheet" href="css/style.css"><script defer src="js/main.js"></script></head>
+<body><header class="site-header"><div class="header-inner"><a class="logo" href="index.html">WebType</a><button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">Меню</button><nav id="main-nav" class="main-nav" aria-label="Основная навигация">
+<a class="nav-link" href="index.html">Главная</a><a class="nav-link" href="basics.html">Основы</a><a class="nav-link" href="hierarchy.html">Иерархия</a><a class="nav-link active" href="fonts.html">Шрифты</a><a class="nav-link" href="practice.html">Практика</a><a class="nav-link" href="about.html">О проекте</a></nav></div></header>
+<div class="layout"><aside class="sidebar"><h2>Шрифты</h2><ul><li><a href="#webfonts">Web Fonts</a></li><li><a href="#formats">Форматы</a></li><li><a href="#font-image">Сравнение</a></li><li><a href="#code">Подключение</a></li></ul></aside>
+<main class="content"><section class="page-title"><p class="eyebrow">03 / ШРИФТЫ</p><h1>Шрифты в Web</h1><p class="lead">Браузер может использовать системные шрифты или загружать специальные веб-шрифты вместе со страницей.</p></section>
+<section id="webfonts" class="section"><h2>Web Fonts</h2><p>Web Font — шрифт, который доступен браузеру через сеть или локальные ресурсы проекта. Для производительности желательно использовать современные форматы и ограничивать набор начертаний.</p><div class="font-showcase"><div><span>Аа</span><p>Sans-serif</p></div><div><span class="serif">Аа</span><p>Serif</p></div><div><span class="mono">Аа</span><p>Monospace</p></div></div></section>
+<section id="font-image" class="section"><h2>Сравнение семейств</h2>
+<div class="single-image"><img src="images/font-families.svg" alt="Сравнение шрифтовых семейств"></div>
+</section>
+<section id="formats" class="section"><h2>Форматы</h2><ul class="feature-list"><li><strong>WOFF2</strong> — современный сжатый формат для Web.</li><li><strong>WOFF</strong> — широко поддерживаемый веб-формат.</li><li><strong>TTF/OTF</strong> — универсальные форматы шрифтов, но обычно менее оптимальны для Web.</li></ul></section>
+<section id="code" class="section"><h2>Пример @font-face</h2><div class="code-card"><code>@font-face {<br>&nbsp;&nbsp;font-family: "MyFont";<br>&nbsp;&nbsp;src: url("fonts/myfont.woff2") format("woff2");<br>&nbsp;&nbsp;font-weight: 400;<br>&nbsp;&nbsp;font-style: normal;<br>}</code></div></section></main></div>
+<footer class="site-footer"><div><strong>WebType</strong><p>Типографика в Web.</p></div><div><p>© 2026</p><a href="about.html">О проекте</a></div></footer></body></html>

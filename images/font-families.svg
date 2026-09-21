@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f4f4f4"/>
+<text x="90" y="120" font-family="Arial, sans-serif" font-size="32" letter-spacing="7" fill="#555">FONT FAMILIES</text>
+<text x="90" y="300" font-family="Georgia, serif" font-size="150" fill="#161616">Serif</text>
+<text x="90" y="485" font-family="Arial, sans-serif" font-size="150" font-weight="700" fill="#161616">Sans</text>
+<text x="90" y="670" font-family="Courier New, monospace" font-size="130" fill="#161616">Mono</text>
+<text x="1120" y="300" font-family="Georgia, serif" font-size="28" fill="#555">засечки</text>
+<text x="1120" y="485" font-family="Arial, sans-serif" font-size="28" fill="#555">без засечек</text>
+<text x="1120" y="670" font-family="Courier New, monospace" font-size="28" fill="#555">равная ширина</text>
+</svg>
