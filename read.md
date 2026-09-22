@@ -9,4 +9,4 @@ CSS-фреймворк: Carbon Design System
 https://25042006w-rgb.github.io /-/
 
 Ссылка на репозиторий GitHub:  
-ВСТАВЬТЕ_ССЫЛКУ_НА_GITHUB_REPOSITORY
+https://github.com/25042006w-rgb/-/tree/main
